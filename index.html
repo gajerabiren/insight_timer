@@ -1,49 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meditation Page</title>
-    <link rel="stylesheet" href="main.css">
-    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./main.css">
+
+
 </head>
-<body onload="show()">
 
-   
-  <section class="slider_section" >
+<body>
 
-    <div class="main-slider-div">
 
-        <div class="left-arrow-div" id="left-arrow" onclick="moveleft()">
-            <button>
-                &lt;
-            </button>
-        </div>
-        <div class="child-slider-div" id="image1">
-            <img  src="./images/insight_image_one.jpg" alt="image-one">
-        </div>
-        <div class="child-slider-div" id="image2">
-            <img  src="./images/insight_image_two.jpg" alt="image-two">
-        </div>
-        <div class="child-slider-div" id="image3">
-            <img  src="./images/insight_image_three.jpg" alt="image-three">
-        </div>
-        <div class="child-slider-div" id="image4">
-            <img  src="./images/insight_image_four.jpg" alt="image-four">
-        </div>
-        <div class="child-slider-div" id="image5">
-            <img  src="./images/insight_image_five.jpeg" alt="image-five">
-        </div>
-        <div class="right-arrow-div" id="right-arrow" onclick="moveright()">
-            <button>
-                &gt;
-            </button>
-        </div>
-    </div>
 
-  </section>
+    <!-- <body onload="show()"> -->
 
-    <script src="main.js"></script>
+
+    <!-- <section class="slider_section">
+
+    
+
+        <div class="main-slider-div">
+
+            <div class="left-arrow-div" id="left-arrow" onclick="moveleft()">
+                <button>
+                    &lt;
+                </button>
+            </div>
+            <div class="child-slider-div" id="image1">
+                <img src="./images/insight_image_one.jpg" alt="image-one">
+            </div>
+            <div class="child-slider-div" id="image2">
+                <img src="./images/insight_image_two.jpg" alt="image-two">
+            </div>
+            <div class="child-slider-div" id="image3">
+                <img src="./images/insight_image_three.jpg" alt="image-three">
+            </div>
+            <div class="child-slider-div" id="image4">
+                <img src="./images/insight_image_four.jpg" alt="image-four">
+            </div>
+            <div class="child-slider-div" id="image5">
+                <img src="./images/insight_image_five.jpeg" alt="image-five">
+            </div>
+            <div class="right-arrow-div" id="right-arrow" onclick="moveright()">
+                <button>
+                    &gt;
+                </button>
+            </div>
+        </div>
+
+    </section> -->
+
+    <!----------------------------navigation-bar------------------------------->
+    <section>
+        <nav>
+           <header>
+               <div class="main-nav-div">
+                      <a href="#" class="main-logo"><img src="./images/main-logo.svg" alt="main-logo"></a>
+                   <div class="navigation-links" id="tag">
+                     
+                            <a href="#" class="navigation-links">Meditation</a>
+                       
+                       
+                            <a href="#" class="navigation-links">Yoga</a>
+                      
+                           <a href="#" class="navigation-links">Sleep</a>
+                       
+                
+                           <a href="#" class="navigation-links">Live</a>
+                       
+                       
+                           <a href="#" class="navigation-links">Circles for teams</a>
+
+                       
+                   </div>
+                   <div id="click-searchbar-field">
+                    hello world
+                   </div>
+                   <div class="searchbar-and-sign-in-div">
+                    
+                    <button class="search-button" id="nav-search-button">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                        
+                       
+
+                   
+
+                       <button class="sign-in-button">
+                           Sing In
+                       </button>
+                   </div>
+               </div>
+           </header>
+        </nav>
+
+    </section>
+
+    <!--------------------------------main-heading-page----------------------------------->
+
+    <section class="main-header-page">
+        <div class="main-heading">
+            <h1 class="main-title">
+                #1 app for sleep,anxiety and stress
+            </h1>
+        </div>
+    </section>
+
+    <!-- --------------------main-slider--------------------------------------------->
+
+    <section class="main-slider">
+        <div class="owl-carousel owl-theme">
+            <img class="item" src="./images/insight_image_one.jpg"></img>
+            <img class="item" src="./images/insight_image_two.jpg"></img>
+            <img class="item" src="./images/insight_image_three.jpg"></img>
+            <img class="item" src="./images/insight_image_four.jpg"></img>
+            <img class="item" src="./images/insight_image_five.jpeg"></img>
+
+        </div>
+    </section>
+
+    <!-------------------------------second-slider------------------------------- -->
+
+    <section class="second-slider-section">
+        <div class="text-division-second-slider">
+            <h1 class="events-heading">
+                Featured Events
+            </h1>
+            <h1 class="see-all-list">
+                See all
+            </h1>
+        </div>
+
+        <div class="owl-carousel owl-theme">
+            <img class="item second-slider-image" src="./images/s-2-image-one.jpeg"></img>
+            <img class="item second-slider-image" src="./images/s-2-image-two.jpeg"></img>
+            <img class="item second-slider-image" src="./images/s-2-image-three.jpeg"></img>
+            <img class="item second-slider-image" src="./images/s-2-image-four.jpeg"></img>
+            <img class="item second-slider-image" src="./images/s-2-image-five.jpeg"></img>
+            <img class="item second-slider-image" src="./images/s-2-image-six.jpeg"></img>
+            <img class="item second-slider-image" src="./images/s-2-image-seven.jpeg"></img>
+
+        </div>
+
+    </section>
+
+
+
+    <!------------------------scripts------------------------------------------ -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+
+    <script src="./main.js"></script>
+    <script src="./nav.js"></script>
 </body>
+
 </html>
